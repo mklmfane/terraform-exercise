@@ -3,6 +3,7 @@ variable "ami_id" {
   type        = string
 }
 
+
 variable "instance_type" {
   description = "Instance type for the EC2 instances"
   type        = string
