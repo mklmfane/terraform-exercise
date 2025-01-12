@@ -1,0 +1,13 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform crash log files
+crash.log
+
+# Exclude backup files created by Terraform
+*.tfvars
+*.tfvars.json
+
+# Terraform lock files
+*.lock.hcl
