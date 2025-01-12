@@ -57,7 +57,7 @@ Deliverables:
       # More infromation about terraform proivde can be found here in this link https://registry.terraform.io/providers/hashicorp/aws/latest/docs   
 
     - Launch terraform plan to see which resources will be created
-      terraform plan -var-file="terraform.tfvars"
+      terraform plan -var-file="terraform_vars.tfvars"
 
     - Launch the folloiwng command 
      terraform apply -var-file="terraform.tfvars" --auto-approve  - to see how it can be applied withotut reuqiring to confirm
