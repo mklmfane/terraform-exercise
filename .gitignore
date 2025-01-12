@@ -16,4 +16,4 @@ crash.log
 .terraform/
 
 # Exclude specific large files in .terraform
-.terraform/providers/registry.terraform.io/hashicorp/aws/*/linux_amd64/terraform-provider-aws_*
+.terraform/*.*
