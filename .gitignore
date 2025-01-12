@@ -14,3 +14,5 @@ crash.log
 
 # Terraform hidden folders
 .terraform/
+# Exclude specific large files in .terraform
+.terraform/*
