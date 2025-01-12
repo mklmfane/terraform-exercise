@@ -57,7 +57,7 @@ resource "aws_route" "route_internet_gateway" {
 }
 
 resource "aws_instance" "technical_test_ariane" {
-  ami           = "ami-0c55b159cbfafe1f0" # Example AMI; update as needed
+  ami           = var.ami_id # Example AMI; update as needed
   instance_type = "t2.micro"
   subnet_id     = aws_subnet.technical_test_public.id
   security_groups = [aws_security_group.technical_test_ariane_security_group.id]

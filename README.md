@@ -60,7 +60,7 @@ Deliverables:
       terraform plan -var-file="terraform_vars.tfvars"
 
     - Launch the folloiwng command 
-     terraform apply -var-file="terraform_vars.tfvars" --auto-approve  - to see how it can be applied withotut reuqiring to confirm
+     terraform apply -var-file="terraform_vars.tfvars" -auto-approve  - to see how it can be applied withotut requiring to confirm
     
       
 Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
